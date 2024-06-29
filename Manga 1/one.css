@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Soapy;
+    src: url(Fonts/SoapyHands.otf);
+}
+
+.images {
+    width: 1100px;
+    display: block;
+    margin: auto;
+}
+
+.part {
+    margin: 200px;
+}
+
+.title {
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+}
+
+p,
+h1,
+h2,
+h3 {
+    display: block;
+    padding: 60px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Soapy;
+}
+
+.next-part {
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    display: block;
+    color: gray;
+    background-color: transparent;
+    border-color: gray;
+    border-width: 5px;
+    padding: 30px 80px;
+    font-family: Soapy;
+}
+
+
+
+
+@media (max-width: 1100px) {
+
+    .images {
+        width: 500px;
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
+        padding: 0px;
+        font-size: 20px;
+    }
+}
